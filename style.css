@@ -1,0 +1,120 @@
+/* Сброс и базовые стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    color: #000;
+  }
+  
+  /* Шапка */
+  .header {
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 12px 0;
+  }
+  
+  .top-nav ul,
+  .bottom-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 10px 0;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .bottom-nav {
+    background: #111;
+  }
+  
+  .bottom-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  /* Герой-секция */
+  .hero {
+    position: relative;
+    height: 90vh;
+    background: url(image\ 1.png) center center / cover no-repeat;
+  }
+  
+  /* Затемнение */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: flex-end;
+    padding: 60px;
+  }
+  
+  .text-content {
+    max-width: 700px;
+  }
+  
+  .event {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .headline {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+  
+  /* Кнопка и инфо-блок */
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .learn-more {
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+  
+  .info {
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+  }
+  
+  .info span {
+    margin-right: 5px;
+  }
+  
+  
